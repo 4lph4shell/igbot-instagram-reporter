@@ -86,7 +86,10 @@ python3.10 instagram3.py report username1_to_report,username2_to_report 0,4,0 tr
 ## Example
 The expression 0, 4, 0 from left to right means that the first option is selected first, that is:
 - It's posting something that should't be on instagram
- ![image](https://github.com/4lph4shell/igbot-instagram-reporter/blob/master/photo_2024-09-18_19-20-03.jpg) 
+
+ ![image](https://github.com/4lph4shell/igbot-instagram-reporter/blob/master/photo_2024-09-18_19-20-03.jpg)
+
+
 Then the fifth option (index 4)
 - Nudity or sexual activity
    ![image](https://github.com/4lph4shell/igbot-instagram-reporter/blob/master/photo_2024-09-18_19-20-08.jpg) 
