@@ -56,9 +56,43 @@ python3.10 -m pip install --upgrade requests
 python3.10 -m pip install --upgrade urllib3 chardet
 ```
  # Usage
-1. **Presetting**
  
- ### first of all you have to make list of proxys and accounts in the files
- - add your proxys to proxy.txt like ### 127.0.0.1.8588
- - add your accounts to accounts.txt like ### in the fist line username and in the second line password
+1. **PreSetting**
+ 
+first of all you have to make list of proxys and accounts in the files
+ - add your proxys to proxy.txt like     127.0.0.1.8588
+ - add your accounts to accounts.txt     in the fist line username and in the second line password
+ 2. **PreUsage**
+   - Processing accounts
+   ```
+   python3.10 instagram3.py account ./accounts.txt ./accounts.json true
+   ```
+   It is true, it means that the randomizer is active.
+   - Proxies processing
+     ```
+     python3.10 instagram3.py proxy http ./proxy.txt ./proxy.json
+     ```
+     - Converting accounts to cookies
+       ```
+       python3.10 instagram3.py cookie ./accounts.json ./cookies.json null null 2 true false
+       ```
+From left to right, the second null is the processed proxy file, the number 2 is the number of calls for each account, then let it remain true, then false means randomizer, which is false because we did it in the previous step (initial processing of accounts). 
 
+# Original and final order:
+- report
+```
+python3.10 instagram3.py report username1_to_report,username2_to_report 0,4,0 true ./cookies.json ./proxy.json
+```
+## Example
+The expression 0, 4, 0 from left to right means that the first option is selected first, that is:
+- It's posting something that should't be on instagram
+ ![image](https://github.com/4lph4shell/igbot-instagram-reporter/blob/master/photo_2024-09-18_19-20-03.jpg) 
+Then the fifth option (index 4)
+- Nudity or sexual activity
+   ![image](https://github.com/4lph4shell/igbot-instagram-reporter/blob/master/photo_2024-09-18_19-20-08.jpg) 
+
+Then, in the next question, he chooses the first option (zero index).
+
+The expression true means to block or not
+
+The next two files are obtained from the previous steps
