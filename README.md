@@ -1,7 +1,7 @@
 # instagram accounts reporter IGbot
 
 ![image](https://github.com/4lph4shell/igbot-instagram-reporter/blob/master/Untitled-design-13.png)
-[![website](https://www.4lph4.ir)](#)
+
 Instagram reporter - is a tool designed to help you report instagram account by your awn account .
 You should have number of account (recomended more than 100 ) and some proxy to able report and delete account from instagram.
 This tool will be loging to each account one by one and start to choose report aption that you choose in the firdt step .
@@ -10,7 +10,9 @@ This tool will be loging to each account one by one and start to choose report a
 
 # Prerequisited
 You should install these requerment in the fist step on your server 
-- sudo add-apt-repository ppa:deadsnakes/ppa
+```
+ sudo add-apt-repository ppa:deadsnakes/ppa
+```
 - sudo apt update
 - sudo apt install firefox
 - sudo apt install python3.10
@@ -25,4 +27,6 @@ You should install these requerment in the fist step on your server
 - python3.10 -m pip install pyarrow
 - python3.10 -m pip install --upgrade requests
 - python3.10 -m pip install --upgrade urllib3 chardet
+
+- 
 
