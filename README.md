@@ -91,11 +91,15 @@ The expression 0, 4, 0 from left to right means that the first option is selecte
 
 
 Then the fifth option (index 4)
-- Nudity or sexual activity
-   ![image](https://github.com/4lph4shell/igbot-instagram-reporter/blob/master/photo_2024-09-18_19-20-08.jpg) 
 
+![image](https://github.com/4lph4shell/igbot-instagram-reporter/blob/master/photo_2024-09-18_19-20-08.jpg) 
+
+- Nudity or sexual activity
+  
 Then, in the next question, he chooses the first option (zero index).
 
 The expression true means to block or not
+
+## Use it for good perpeses
 
 The next two files are obtained from the previous steps
