@@ -55,5 +55,10 @@ python3.10 -m pip install --upgrade requests
 ```
 python3.10 -m pip install --upgrade urllib3 chardet
 ```
+ # Usage
+1. **Presetting**
  
+ ### first of all you have to make list of proxys and accounts in the files
+ - add your proxys to proxy.txt like ### 127.0.0.1.8588
+ - add your accounts to accounts.txt like ### in the fist line username and in the second line password
 
