@@ -55,6 +55,13 @@ python3.10 -m pip install --upgrade requests
 ```
 python3.10 -m pip install --upgrade urllib3 chardet
 ```
+ #Inistalation
+ ```
+git clone https://github.com/4lph4shell/igbot-instagram-reporter.git
+```
+```
+cd igbot-instagram-reporter
+```
  # Usage
  
 1. **PreSetting**
